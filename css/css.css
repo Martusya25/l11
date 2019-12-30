@@ -1,0 +1,30 @@
+* {
+  margin: 0; }
+
+.container {
+  max-width: 1170px; }
+
+header {
+  border-bottom: 1px solid #ccc; }
+  header .container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    @media (max-width: 768px) {
+      header .container {
+        height: 70px; } }
+  header ul {
+    display: flex;
+    list-style: none; }
+    header ul li.active a {
+      color: red; }
+    header ul a {
+      color: #751414;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: 0.5s; }
+      header ul a:hover {
+        color: red; }
+
+/*# sourceMappingURL=css.css.map */
